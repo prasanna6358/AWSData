@@ -110,8 +110,6 @@ ec2Client.releaseAddress();
 ec2Client.createSpotDatafeedSubscription();
 ec2Client.describeSnapshots();
 ec2Client.describeInstanceAttribute();
-ec2Client.describeReservedInstances();
-ec2Client.describeSubnets();
 ec2Client.describeAvailabilityZones();
 ec2Client.describeImages();
 ec2Client.describeSpotInstanceRequests();
