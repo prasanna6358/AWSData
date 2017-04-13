@@ -25,12 +25,21 @@ ec2Client.terminateInstances();
 
 VPS's and SUBNETS:URL:http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html#vpc-subnet-basics
 Group 3:
-ec2Client.createKeyPair();
-ec2Client.deleteKeyPair();
+ec2Client.createSubnet();
+ec2Client.deleteSubnet();
 ec2Client.createVpc();
 ec2Client.deleteVpc();
 ec2Client.createVpnConnection();
 ec2Client.deleteVpnConnection();
+ec2Client.createKeyPair();
+ec2Client.deleteKeyPair();
 
 
 Storage URL:http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Storage.html
+
+     ec2Client.createVolume();
+     ec2Client.attachVolume();
+     ec2Client.detachVolume();
+     ec2Client.deleteVolume();
+
+
