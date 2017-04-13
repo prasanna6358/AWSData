@@ -36,10 +36,9 @@ ec2Client.deleteKeyPair();
 
 
 Storage URL:http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Storage.html
-
-     ec2Client.createVolume();
-     ec2Client.attachVolume();
-     ec2Client.detachVolume();
-     ec2Client.deleteVolume();
-
+ec2Client.createVolume();
+ec2Client.attachVolume();
+ec2Client.detachVolume();
+ec2Client.deleteVolume();
+ec2Client.describeVolumes();
 
