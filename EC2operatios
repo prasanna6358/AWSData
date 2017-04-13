@@ -42,3 +42,10 @@ ec2Client.detachVolume();
 ec2Client.deleteVolume();
 ec2Client.describeVolumes();
 
+
+we have to add following operations
+ec2Client.deleteCustomerGateway();
+ec2Client.createCustomerGateway();
+ec2Client.createSecurityGroup();
+ec2Client.deleteSecurityGroup();
+
