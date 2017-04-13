@@ -18,7 +18,7 @@ ec2Client.runInstances();
 ec2Client.startInstances();
 ec2Client.requestSpotInstances();
 ec2Client.monitorInstances();
-ec2Client.resetInstanceAttribute();
+ec2Client.rebootInstances();
 ec2Client.unmonitorInstances();
 ec2Client.stopInstances();
 ec2Client.terminateInstances();
