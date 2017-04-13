@@ -10,6 +10,7 @@ ec2Client.deregisterImage();
 ec2Client.modifyImageAttribute();
 ec2Client.resetImageAttribute();
 ec2Client.describeImages();
+ec2Client.setEndpoint();
 
 Instances:http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html
 group2:
@@ -21,7 +22,9 @@ ec2Client.monitorInstances();
 ec2Client.rebootInstances();
 ec2Client.unmonitorInstances();
 ec2Client.stopInstances();
+ec2Client.describeInstances();
 ec2Client.terminateInstances();
+
 
 VPS's and SUBNETS:URL:http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html#vpc-subnet-basics
 Group 3:
@@ -30,9 +33,14 @@ ec2Client.deleteSubnet();
 ec2Client.createVpc();
 ec2Client.deleteVpc();
 ec2Client.createVpnConnection();
+ec2Client.createVpnGateway();
+ec2Cline.deleteVpnGateway();
+ec2Client.attachVpnGateway();
 ec2Client.deleteVpnConnection();
 ec2Client.createKeyPair();
 ec2Client.deleteKeyPair();
+ec2Client.allocateAddress();
+
 
 
 Storage URL:http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Storage.html
@@ -44,8 +52,70 @@ ec2Client.describeVolumes();
 
 
 we have to add following operations
+ec2Client.setEndpoint();
 ec2Client.deleteCustomerGateway();
 ec2Client.createCustomerGateway();
 ec2Client.createSecurityGroup();
 ec2Client.deleteSecurityGroup();
+
+
+
+Some other opearations
+ec2Client.describeSubnets();
+ec2Client.describeReservedInstances();  
+ec2Client.describeAvailabilityZones();
+ec2Client.describeInstances();
+ec2Client.modifyInstanceAttribute();
+ec2Client.deleteDhcpOptions();
+ec2Client.authorizeSecurityGroupIngress();
+ec2Client.describeSpotInstanceRequests();
+ec2Client.associateDhcpOptions();
+ec2Client.getPasswordData();
+ec2Client.describeCustomerGateways();
+ec2Client.describeSpotPriceHistory();
+ec2Client.describeRegions();
+ec2Client.createDhcpOptions();  
+ec2Client.resetSnapshotAttribute();
+ec2Client.describeSecurityGroups();
+ec2Client.requestSpotInstances();
+ec2Client.describeSpotDatafeedSubscription();
+ec2Client.cancelBundleTask();
+ec2Client.purchaseReservedInstancesOffering();
+ec2Client.resetImageAttribute();
+ec2Client.describeVpnConnections();
+ec2Client.createSnapshot();
+ec2Client.modifySnapshotAttribute();
+ec2Client.deleteSpotDatafeedSubscription();
+ec2Client.describeVpcs(); 
+ec2Client.associateAddress();
+ec2Client.describeAddresses();
+ec2Client.describeSnapshotAttribute();
+ec2Client.describeKeyPairs();
+ec2Client.describeImageAttribute();
+ec2Client.confirmProductInstance();
+ec2Client.describeVpnGateways();
+ec2Client.describeReservedInstancesOfferings();
+ec2Client.describeVolumes();
+ec2Client.deleteSnapshot();
+ec2Client.describeDhcpOptions();
+ec2Client.monitorInstances();
+ec2Client.disassociateAddress();
+ec2Client.describeBundleTasks();
+ec2Client.bundleInstance();
+ec2Client.revokeSecurityGroupIngress();
+ec2Client.getConsoleOutput();
+ec2Client.modifyImageAttribute();
+ec2Client.resetInstanceAttribute();
+ec2Client.releaseAddress();
+ec2Client.createSpotDatafeedSubscription();
+ec2Client.describeSnapshots();
+ec2Client.describeInstanceAttribute();
+ec2Client.describeReservedInstances();
+ec2Client.describeSubnets();
+ec2Client.describeAvailabilityZones();
+ec2Client.describeImages();
+ec2Client.describeSpotInstanceRequests();
+ec2Client.describeCustomerGateways();
+ec2Client.describeSpotPriceHistory();
+
 
